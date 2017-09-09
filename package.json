@@ -5,7 +5,7 @@
   "main": "server/server.js",
   "dependencies": {
     "compression": "^1.0.3",
-    "botkit":"latest",
+    "botkit": "latest",
     "errorhandler": "^1.1.1",
     "strong-start": "*",
     "loopback": "^2.0.0",
