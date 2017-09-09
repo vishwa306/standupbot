@@ -24,11 +24,9 @@ bot.startRTM(function(err,bot,payload) {
 
 
 controller.hears(['*'], function(bot, message) {
-	// listens for all messages
+	// write Watson conversation logic here
 	
 })
-
-// -- Add your pre-processing middleware here --
 
 // boot scripts mount components like REST API
 boot(app, __dirname);
