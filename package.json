@@ -1,0 +1,48 @@
+{
+  "name": "standupbot",
+  "version": "0.0.1",
+  "description": "LoopBack hackathon application",
+  "main": "server/server.js",
+  "dependencies": {
+    "compression": "^1.0.3",
+    "botkit":"latest",
+    "errorhandler": "^1.1.1",
+    "strong-start": "*",
+    "loopback": "^2.0.0",
+    "loopback-boot": "^2.0.0",
+    "loopback-datasource-juggler": "^2.0.0",
+    "serve-favicon": "^2.0.1",
+    "function-rate-limit": "~0.0.1",
+    "request": "^2.37.0",
+    "shuffle": "~0.2.1",
+    "text-table": "~0.2.0",
+    "weighted": "~0.2.2",
+    "async": "~0.9.0",
+    "loopback-connector-rest": "^1.1.4"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0",
+    "loopback-connector-mysql": "^1.2.1",
+    "loopback-connector-mongodb": "^1.2.5",
+    "loopback-connector-oracle": "^1.2.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "mocha": "^1.20.1",
+    "supertest": "^0.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishwa306/standupbot.git"
+  },
+  "author": "Vishwa Krishnakumar <vishwa306@gmail.com>",
+  "license": {
+    "name": "MIT",
+    "url": "https://github.com/vishwa306/standupbot/blob/master/LICENSE"
+  },
+  "scripts": {
+    "test": "mocha -R spec server/test",
+    "pretest": "jshint .",
+    "start": "node ."
+  }
+}
